@@ -4,12 +4,11 @@
   "version": "1.0.0",
   "description": "Get the readtime for articles on geeksforgeeks.org",
   "action": {
-    "default_popup": "popup/index.html",
-    "default_icon": ""
+    "default_popup": "popup/index.html"
   },
   "content_scripts": [
     {
-      "js": ["scripts/index.html"],
+      "js": ["scripts/readtime.js"],
       "matches": ["https://www.geeksforgeeks.org/*"]
     }
   ]
