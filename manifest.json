@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GFG readtime",
+  "version": "1.0.0",
+  "description": "Get the readtime for articles on geeksforgeeks.org",
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": ""
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/index.html"],
+      "matches": ["https://www.geeksforgeeks.org/*"]
+    }
+  ]
+}
