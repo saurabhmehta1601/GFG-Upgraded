@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "GFG readtime",
+  "name": "GFG enhencer",
   "version": "1.0.0",
-  "description": "Get the readtime for articles on geeksforgeeks.org",
+  "description": "Get better user experience with website geeksforgeeks.org",
   "action": {
     "default_popup": "popup/index.html"
   },

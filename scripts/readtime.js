@@ -1,11 +1,11 @@
 // insert dom element as before sibling to current element
 
 const article = document.querySelector("article");
+const articleTitle = document.querySelector(".article-title");
 console.log("content script is loaded  👍");
 
-if (article) {
+if (article && articleTitle) {
   const readtime = Math.round(article.textContent.split(" ").length / 200);
-  const articleTitle = document.querySelector(".article-title");
 
   const readtimeEl = document.createElement("div");
 
